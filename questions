@@ -1,1 +1,7 @@
 
+Coforge :
+---------
+Handling Data Skew in Apache Spark
+If we delete a file in HDFS how can we recover it?
+Predicate Pushdown in spark
+If we have a rdbms table with data of 5gb, and 4 mappers, how sqoop will load data in hdfs, How much data each mapper will process and how sqoop will decide that amount of data to be process for each mapper.
