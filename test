@@ -1,0 +1,7 @@
+1. Filter out audit_access_validate table for pending and active records for employee type only then perform join operation.
+
+2. Create one seperate table for pending records and use that table in join operation that will also give very faster result.
+
+What we are doing now:
+-----------------------
+we are first performing join operation first then we are filtering for pending, active and employee type in where clause that is causing delay in result because we are performing join operation on approx. 1.4m records. but if we will follow any of above logic audit_access_validate records will be less and query performance will be faster.
